@@ -1,19 +1,19 @@
 {
   "name": "passport-req",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "opinionless authentication strategy for Passport.",
   "keywords": ["passport", "auth", "authentication"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kAworu/passport-req.git"
+    "url": "git://github.com/NetOxygen/passport-req.git"
   },
   "bugs": {
-    "url": "https://github.com/kAworu/passport-req/issues"
+    "url": "https://github.com/NetOxygen/passport-req/issues"
   },
   "author": {
     "name": "Alexandre Perrin",
-    "email": "alex@kaworu.ch",
-    "url": "https://kaworu.ch/"
+    "email": "alexandre.perrin@netoxygen.ch",
+    "url": "http://netoxygen.ch"
   },
   "licenses": [ {
     "type": "MIT",
