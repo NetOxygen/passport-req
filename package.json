@@ -1,34 +1,28 @@
 {
-  "name": "passport-local",
-  "version": "0.1.6",
-  "description": "Local username and password authentication strategy for Passport.",
-  "keywords": ["passport", "local", "auth", "authn", "authentication"],
+  "name": "passport-req",
+  "version": "0.1.0",
+  "description": "opinionless authentication strategy for Passport.",
+  "keywords": ["passport", "auth", "authentication"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-local.git"
+    "url": "git://github.com/kAworu/passport-req.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-local/issues"
+    "url": "https://github.com/kAworu/passport-req/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Alexandre Perrin",
+    "email": "alex@kaworu.ch",
+    "url": "https://kaworu.ch/"
   },
   "licenses": [ {
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
+    "url": "http://www.opensource.org/licenses/MIT"
   } ],
-  "main": "./lib/passport-local",
+  "main": "./lib/passport-req",
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport": "~0.1.1"
-  },
-  "devDependencies": {
-    "vows": "0.6.x"
-  },
-  "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
   "engines": { "node": ">= 0.4.0" }
 }
